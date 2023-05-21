@@ -5,6 +5,8 @@ Developed by Innovation Research Center for Intelligent Networking at Wenzhou Un
 Author: Long Chen.
 
 # Cite
+Please cite our paper if you use this code in your own work:
+```
 @article{chen2022balancing,
   title={Balancing the trade-off between cost and reliability for wireless sensor networks: a multi-objective optimized deployment method},
   author={Chen, Long and Xu, Yingying and Xu, Fangyi and Hu, Qian and Tang, Zhenzhou},
@@ -13,3 +15,4 @@ Author: Long Chen.
   year={2022},
   publisher={Springer}
 }
+```
