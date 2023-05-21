@@ -1,3 +1,14 @@
+% Please refer to the main paper:
+% Balancing the trade-off between cost and reliability for wireless sensor networks: a multi-objective optimized deployment method
+% Long Chen, Yingying Xu, Fangyi Xu, Qian Hu, Zhenzhou Tang
+% Applied Intelligence
+% DOI: https://doi.org/10.1007/s10489-022-03875-9
+%        AND
+% Marine Predators Algorithm: A nature-inspired metaheuristic
+% Afshin Faramarzi, Mohammad Heidarinejad, Seyedali Mirjalili, Amir H. Gandomi
+% Expert Systems with Applications
+% DOI: https://doi.org/10.1016/j.eswa.2020.113377
+% _____________________________________________________
 function [fobj, fcon,P] = cmompa_getMOFcn(F, decisionVar, numObj)
 
 	[N,D]  = size(decisionVar);

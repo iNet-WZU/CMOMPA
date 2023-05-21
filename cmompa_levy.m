@@ -1,28 +1,20 @@
-% The code has been taken from the study:
-%'Multiobjective cuckoo search for design optimization Xin-She Yang, Suash Deb'. 
-% Coded by Hemanth Manjunatha on Nov 13 2015.
- 
+% Please refer to the main paper:
+% Balancing the trade-off between cost and reliability for wireless sensor networks: a multi-objective optimized deployment method
+% Long Chen, Yingying Xu, Fangyi Xu, Qian Hu, Zhenzhou Tang
+% Applied Intelligence
+% DOI: https://doi.org/10.1007/s10489-022-03875-9
+%        AND
+% Marine Predators Algorithm: A nature-inspired metaheuristic
+% Afshin Faramarzi, Mohammad Heidarinejad, Seyedali Mirjalili, Amir H. Gandomi
+% Expert Systems with Applications
+% DOI: https://doi.org/10.1016/j.eswa.2020.113377
+% _____________________________________________________
 % Input parameters
 % n     -> Number of steps 
 % m     -> Number of Dimensions 
 % beta  -> Power law index  % Note: 1 < beta < 2
 % Output 
 % z     -> 'n' levy steps in 'm' dimension
-%_________________________________________________________________________
-%  Marine Predators Algorithm source code (Developed in MATLAB R2015a)
-%
-%  programming: Afshin Faramarzi & Seyedali Mirjalili
-%
-% paper:
-%  A. Faramarzi, M. Heidarinejad, S. Mirjalili, A.H. Gandomi, 
-%  Marine Predators Algorithm: A Nature-inspired Metaheuristic
-%  Expert Systems with Applications
-%  DOI: doi.org/10.1016/j.eswa.2020.113377
-%  
-%  E-mails: afaramar@hawk.iit.edu            (Afshin Faramarzi)
-%           muh182@iit.edu                   (Mohammad Heidarinejad)
-%           ali.mirjalili@laureate.edu.au    (Seyedali Mirjalili) 
-%           gandomi@uts.edu.au               (Amir H Gandomi)
 %_________________________________________________________________________
 
 function [z] = cmompa_levy(n,m,beta)
